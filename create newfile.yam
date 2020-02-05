@@ -1,0 +1,7 @@
+- hosts: all
+  tasks:
+  - name: Ansible create file with content example
+    copy:
+      dest: "/tmp/readme"
+      content: |
+        @Ron Yahel

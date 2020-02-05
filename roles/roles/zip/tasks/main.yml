@@ -1,0 +1,12 @@
+---
+- name: Install Zip
+  become: yes
+  apt:
+    pkg: zip
+    state: present
+    update_cache: true
+- name: Install vim
+  apt:
+    pkg: vim
+    state: present
+    update_cache: true
